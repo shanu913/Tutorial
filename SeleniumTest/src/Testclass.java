@@ -10,4 +10,9 @@ public class Testclass {
 	{
 		
 	}
+	
+	public void crun()
+	{
+		
+	}
 }
