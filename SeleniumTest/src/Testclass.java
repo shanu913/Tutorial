@@ -5,5 +5,9 @@ public class Testclass {
 	{
 		
 	}
-
+	
+	public void erun()
+	{
+		
+	}
 }
