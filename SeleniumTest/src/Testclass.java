@@ -15,4 +15,8 @@ public class Testclass {
 	{
 		
 	}
+	public void drun()
+	{
+		
+	}
 }
