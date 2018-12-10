@@ -25,6 +25,7 @@ public class SmokeTest {
 	@When("^I enter valid username and valid password$")
 	public void i_enter_valid_username_and_valid_password() throws Throwable {
 	    
+		driver.get("https://www.facebook.com/");
 	}
 
 	@Then("^User should be login sucessfully$")
