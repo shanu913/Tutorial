@@ -21,5 +21,6 @@ public class Collection {
 		al.remove("a");
 		System.out.println("ArrayList size:"+al.size());
 		System.out.println(al);
+		System.out.println(al);
 	}
 }
