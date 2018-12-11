@@ -10,7 +10,6 @@ import cucumber.api.java.en.When;
 
 public class SmokeTest {
 	
-	//System.setProperty("webdriver.chrome.driver", "D:\\Shanu Data\\Slenium\\Chrome Driver\\chromedriver.exe");
 	WebDriver driver; 
 	
 	@Given("^Open Chrome and start application$")
