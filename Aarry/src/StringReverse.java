@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class StringReverse {
 
 	public static void main(String[] args) {
-	      StringBuffer a = new StringBuffer("Java programming is fun");
+	      StringBuffer a = new StringBuffer("Java is fun");
 	      
 	      System.out.println(a.reverse());
 	 /*public static void main(String args[])
