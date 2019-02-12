@@ -8,7 +8,7 @@ public class Array {
 		
 		for (int item:arr)
 		{
-			System.out.println(item);
+			System.out.print(item + " ");
 			
 		}
 		
@@ -26,10 +26,12 @@ public class Array {
 			}
 			
 		}
+		System.out.println();  
+		System.out.println("Elements of array sorted in ascending order: ");  
 		
 		for (int item:arr)
 		{
-			System.out.println(item);
+			System.out.print(item + " ");
 			
 		}
 
