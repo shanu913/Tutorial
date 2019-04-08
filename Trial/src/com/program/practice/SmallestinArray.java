@@ -21,7 +21,7 @@ public class SmallestinArray {
 			}
 		}
 		
-		System.out.println(a[4]);
+		System.out.println(a[len-3]);
 	}
 
 }
