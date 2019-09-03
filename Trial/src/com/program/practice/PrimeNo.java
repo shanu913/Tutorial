@@ -5,11 +5,11 @@ package com.program.practice;
 public class PrimeNo {
 
 	public static void main(String[] args) {
-		int a=6;
+		int num=7;
 		int count=0;
-		for(int i=1; i<=a; i++)
+		for(int i=1; i<=num; i++)
 		{
-				if(a%i==0)
+				if(num%i==0)
 				{
 				count++;	
 				}
