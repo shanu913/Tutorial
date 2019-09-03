@@ -1,22 +1,25 @@
-//check given no. is prime or not
+//Prime no between two no
 
 package com.program.practice;
 
 public class Prime {
 
 	public static void main(String[] args) {
-		int a = 2;
+		int a = 100;
 		int count = 0;
-		for (int i = 1; i <= a; i++) {
-
-			if (a % i == 0) {
-				count++;
+		for (int i = 2; i <= a; i++) {
+			count = 0;
+			for (int j = 1; j <= i; j++) {
+				if (i % j == 0) {
+					count++;
+				}
 			}
-		}
-		if (count == 2) {
-			System.out.println("prime no");
-		} else {
-			System.out.println(" not prime no");
+			if (count == 2) {
+
+				System.out.println(i);
+
+
+			}
 
 		}
 
