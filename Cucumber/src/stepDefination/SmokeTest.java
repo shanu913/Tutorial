@@ -15,7 +15,7 @@ public class SmokeTest {
 	@Given("^Open Chrome and start application$")
 	public void open_Chrome_and_start_application() throws Throwable {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Shanu Data\\Slenium\\Chrome Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Shanu Data\\Slenium\\Chrome Driver\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 	   
@@ -31,6 +31,17 @@ public class SmokeTest {
 	public void user_should_be_login_sucessfully() throws Throwable {
 	   
 	}
+	
+	@When("^I enter valid username and invalid password$")
+	public void i_enter_valid_username_and_invalid_password() throws Throwable {
+	   
+	}
 
+	@Then("^User should be mot login sucessfully$")
+	public void user_should_be_mot_login_sucessfully() throws Throwable {
+	    
+	}
 
 }
+	
+	
