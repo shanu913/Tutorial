@@ -20,6 +20,7 @@ public class StringRev {
 	}
 	
 	System.out.println(reverse);
+	sc.close();
 			
 	}
 

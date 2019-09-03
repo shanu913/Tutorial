@@ -20,7 +20,7 @@ public class SwapTV
 		y=x;
 		
 		System.out.println("After swapping the no" + "x: " + x + "y: " +y);
-		
+		sc.close();
 	}
 	
 }

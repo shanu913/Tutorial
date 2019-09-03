@@ -12,7 +12,7 @@ public class SwapWT {
 		x=sc.nextInt();
 		y=sc.nextInt();
 		
-		System.out.println("Before swapping " + "x: " +x + "y: " +y);
+		System.out.println("Before swapping the no: " + "x: " + x  + "y: " + y);
 		
 		x=x+y;
 		y=x-y;
