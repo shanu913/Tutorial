@@ -1,15 +1,16 @@
-// Prime no between two no
+//  Check prime no or not
 
 package com.program.practice;
 
 public class PrimeNo {
 
 	public static void main(String[] args) {
-		int num=7;
+		int a= 8;
 		int count=0;
-		for(int i=1; i<=num; i++)
+		for(int i=1; i<=a; i++)
 		{
-				if(num%i==0)
+				
+				if(a%i==0)
 				{
 				count++;	
 				}

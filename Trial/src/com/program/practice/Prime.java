@@ -1,32 +1,48 @@
-//Check prime no or not
+//Prime no between two no
 
 package com.program.practice;
 
 public class Prime {
-
-	public static void main(String[] args) {
-		int num = 100;
-		int count = 0;
+	
+	public static void main (String [] args)
+	{
+		int num=50, count=0;
 		
-		for (int i = 2; i <= num; i++) 
+		for(int i=2; i<=num; i++)
 		{
-			count = 0;
-			for (int j = 1; j <= i; j++) 
+			count=0;
+			for (int j=1; j<=i; j++)
 			{
-				if (i % j == 0) 
+				if(i%j==0)
 				{
 					count++;
 				}
 			}
-			if (count == 2) 
+			
+			if (count==2)
 			{
-
 				System.out.println(i);
-
-
 			}
-
+				
 		}
-
+		
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
+
+	

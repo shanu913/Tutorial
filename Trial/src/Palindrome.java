@@ -14,7 +14,7 @@ public class Palindrome {
 		{
 			char ch= original.charAt(i);
 			
-			 s=String.valueOf(ch);
+			s=String.valueOf(ch);
 			
 		}
 		 
