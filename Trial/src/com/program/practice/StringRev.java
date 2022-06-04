@@ -14,7 +14,7 @@ public class StringRev {
 	
 	int length=original.length();
 	
-	for(int i=length-1; i>=0; i--)
+	for(int i=length-1; i>=0; i--)// reverse sting and index value started from 0 so taken 0
 	{
 		reverse=reverse+original.charAt(i);
 	}

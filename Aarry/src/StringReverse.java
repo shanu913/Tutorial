@@ -2,13 +2,15 @@ import java.util.Scanner;
 
 public class StringReverse {
 
-	public static void main(String[] args) {
-	      StringBuffer a = new StringBuffer("Java programming is fun");
-	      
-	      System.out.println(a.reverse());
-	 /*public static void main(String args[])
+	/*
+	 * public static void main(String[] args) { StringBuffer a = new
+	 * StringBuffer("Java programming is fun");
+	 * 
+	 * System.out.println(a.reverse());
+	 */
+	 public static void main(String args[])
 	   {
-	      String original="honor", 
+	      String original="Python@#Selenium", 
 	      reverse = "";
 	      //Scanner in = new Scanner(System.in);
 	     
@@ -22,7 +24,7 @@ public class StringReverse {
 	         
 	      System.out.println("Reverse of the string: " + reverse);
 	      //in.close();
-*/	   }
+	   }
 	}
 	   
 	

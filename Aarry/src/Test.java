@@ -1,27 +1,29 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Arrays;
 import java.util.Scanner;
 
-class Test 
-{
-	public static void main (String [] args)
+class Test {
+	
+	public String test1 (String hello)
 	{
-		int x, y, temp;
-	      System.out.println("Enter x and y");
-	      Scanner in = new Scanner(System.in);
-	 
-	      x = in.nextInt();
-	      y = in.nextInt();
-	 
-	      System.out.println("Before Swapping\nx = "+x+"\ny = "+y);
-	 
-	      temp = x;
-	      x = y;
-	      y = temp;
-	 
-	      System.out.println("After Swapping\nx = "+x+"\ny = "+y);
-	      
-	      in.close();
+		return hello;
+	}
+	
+	public char test1 (char Hi)
+	{
+		return Hi;
+	}
+	
+	public static void main(String [] args)
+	{
 		
-		
+		Test t=new Test();
 		
 	}
+	
+		
+		
+		
 }
